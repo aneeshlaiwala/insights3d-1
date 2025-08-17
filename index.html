@@ -556,7 +556,7 @@
 
         <!-- Global Sentiment Analysis -->
         <div style="padding: 40px;">
-            <h2 style="color: #2a5298; margin-bottom: 30px;">🌍 Global Sentiment Analysis</h2>
+            <h2 style="color: #2a5298; margin-bottom: 30px;">🌐 Global Sentiment Analysis</h2>
             
             <h3>Western Allies</h3>
             <div class="sentiment-meter">
@@ -698,15 +698,32 @@
 
         <!-- Risk Assessment Matrix -->
         <h2 style="text-align: center; color: #2a5298; margin-top: 40px;">⚠️ 90-Day Risk Matrix</h2>
+        <div style="padding: 20px 40px; background: #f9f9f9; margin: 0 40px 20px 40px; border-radius: 10px;">
+            <h3 style="color: #2a5298; margin-bottom: 15px;">Color Coding by Probability Level:</h3>
+            <div style="display: flex; gap: 30px; justify-content: center; flex-wrap: wrap;">
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <div style="width: 30px; height: 30px; background: #ff4444; border-radius: 5px;"></div>
+                    <span><strong>Red:</strong> High Probability (>50%)</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <div style="width: 30px; height: 30px; background: #ffaa00; border-radius: 5px;"></div>
+                    <span><strong>Orange:</strong> Medium Probability (20-50%)</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <div style="width: 30px; height: 30px; background: #00dd88; border-radius: 5px;"></div>
+                    <span><strong>Green:</strong> Low Probability (<20%)</span>
+                </div>
+            </div>
+        </div>
         <div class="risk-matrix">
-            <div class="risk-cell risk-high">Nuclear Escalation<br>Low Prob / High Impact</div>
-            <div class="risk-cell risk-high">NATO Fracture<br>Med Prob / High Impact</div>
+            <div class="risk-cell risk-low">Nuclear Escalation<br>Low Prob / High Impact</div>
+            <div class="risk-cell risk-medium">NATO Fracture<br>Med Prob / High Impact</div>
             <div class="risk-cell risk-medium">Economic Shock<br>Med Prob / Med Impact</div>
-            <div class="risk-cell risk-high">Ukraine Collapse<br>Med Prob / High Impact</div>
-            <div class="risk-cell risk-medium">Sanctions Erosion<br>High Prob / Med Impact</div>
+            <div class="risk-cell risk-medium">Ukraine Collapse<br>Med Prob / High Impact</div>
+            <div class="risk-cell risk-high">Sanctions Erosion<br>High Prob / Med Impact</div>
             <div class="risk-cell risk-low">Peace Agreement<br>Low Prob / High Impact</div>
-            <div class="risk-cell risk-medium">China Intervention<br>Low Prob / High Impact</div>
-            <div class="risk-cell risk-low">Status Quo<br>High Prob / Low Impact</div>
+            <div class="risk-cell risk-low">China Intervention<br>Low Prob / High Impact</div>
+            <div class="risk-cell risk-high">Status Quo<br>High Prob / Low Impact</div>
             <div class="risk-cell risk-medium">Refugee Crisis<br>Med Prob / Med Impact</div>
         </div>
 
@@ -846,25 +863,37 @@
             <h2 style="color: #2a5298; margin-bottom: 30px;">📚 Historical Parallels & Lessons</h2>
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
                 <div style="background: white; padding: 25px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
-                    <h3>Munich 1938</h3>
+                    <h3>Munich Conference 1938</h3>
+                    <p><strong>Countries Involved:</strong> Germany (Hitler), UK (Chamberlain), France (Daladier), Italy (Mussolini)</p>
+                    <p><strong>Lead/Charge:</strong> Germany demanding; UK/France appeasing</p>
+                    <p><strong>Excluded:</strong> Czechoslovakia (victim nation)</p>
                     <p><strong>Similarity:</strong> Leader excluded from own fate (Czechoslovakia/Ukraine)</p>
                     <p><strong>Outcome:</strong> "Peace in our time" lasted 11 months</p>
                     <p><strong>Lesson:</strong> Appeasement emboldens aggressors</p>
                 </div>
                 <div style="background: white; padding: 25px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
-                    <h3>Yalta 1945</h3>
+                    <h3>Yalta Conference 1945</h3>
+                    <p><strong>Countries Involved:</strong> USA (Roosevelt), UK (Churchill), USSR (Stalin)</p>
+                    <p><strong>Lead/Charge:</strong> Big Three powers dividing post-war Europe</p>
+                    <p><strong>Affected:</strong> Poland, Eastern Europe, Germany</p>
                     <p><strong>Similarity:</strong> Great powers dividing smaller nations</p>
                     <p><strong>Outcome:</strong> 45 years of Cold War</p>
                     <p><strong>Lesson:</strong> Sphere agreements rarely hold</p>
                 </div>
                 <div style="background: white; padding: 25px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
-                    <h3>Helsinki 1975</h3>
+                    <h3>Helsinki Accords 1975</h3>
+                    <p><strong>Countries Involved:</strong> 35 nations including USA, USSR, Canada, all European states</p>
+                    <p><strong>Lead/Charge:</strong> USSR (Brezhnev) and USA (Ford) co-leading</p>
+                    <p><strong>Key Players:</strong> West Germany (Schmidt), France (Giscard d'Estaing)</p>
                     <p><strong>Similarity:</strong> Legitimizing territorial status quo</p>
                     <p><strong>Outcome:</strong> Unexpected catalyst for Soviet collapse</p>
                     <p><strong>Lesson:</strong> Unintended consequences dominate</p>
                 </div>
                 <div style="background: white; padding: 25px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
-                    <h3>Minsk 2014-15</h3>
+                    <h3>Minsk Agreements 2014-15</h3>
+                    <p><strong>Countries Involved:</strong> Ukraine, Russia, Germany (Merkel), France (Hollande)</p>
+                    <p><strong>Lead/Charge:</strong> Germany and France mediating</p>
+                    <p><strong>Direct Parties:</strong> Ukraine (Poroshenko) vs Russia (Putin)</p>
                     <p><strong>Similarity:</strong> Ceasefire without resolution</p>
                     <p><strong>Outcome:</strong> Failed, led to 2022 invasion</p>
                     <p><strong>Lesson:</strong> Frozen conflicts eventually thaw violently</p>
